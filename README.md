@@ -1,10 +1,6 @@
 
 # Train Test Split <a id="toc"></a>
 
-Thus far we've simply been fitting models to data and calculating the error between various models and the actual data. This can lead to various problems such as overfitting where we overtune our models to these specific data points and fail to disern more generalizable patterns that will apply to future cases. 
-
-Let's look at a few examples of how we could modify some of our algorithms to overfit data:
-
 ### Introduction  
 
 Now that you've seen some basic linear regression models it's time to discuss further how to better tune these models. As you saw, we usually begin with an error or loss function for which we'll apply an optimization algorithm such as gradient descent. We then apply this optimization algorithm to the error function we're trying to minimize and voila, we have an optimized solution! Unfortunately, things aren't quite that simple. 
@@ -90,3 +86,5 @@ X_train, X_test, y_train, y_test = #Your code here
 
 ## Bonus:   
 ### Iterate over training size sets from 5%-95% of the total sample size and calculate both the training error (minimized rss) and the test error (rss) for each of these splits. Plot these two curves (train error vs. training size and test error vs. training size) on a graph. 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ds-train-test-split'>Residuals and Train Test Split</a> on Learn.co and start learning to code for free.</p>
